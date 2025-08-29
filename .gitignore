@@ -1,0 +1,56 @@
+# Unreal Engine
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.opendb
+
+# Visual Studio
+.vs/
+*.vcxproj.filters
+*.vcxproj.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+Logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# Package files
+*.pak
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Shader cache
+ShaderCache/
+
+# Auto-generated files
+*.generated.h
+*.generated.cpp
+
+# Crash reports
+CrashReportClient/
+CrashReportClient.exe

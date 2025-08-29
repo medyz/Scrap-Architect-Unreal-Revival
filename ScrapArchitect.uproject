@@ -1,0 +1,54 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.3",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ScrapArchitect",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"InputCore",
+				"HeadMountedDisplay",
+				"EnhancedInput",
+				"UMG",
+				"Slate",
+				"SlateCore",
+				"PhysicsCore",
+				"Chaos",
+				"ChaosSolverEngine",
+				"ChaosVehicles",
+				"ChaosVehiclesCore"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosVehicles",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosSolverEngine",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"Win64"
+	],
+	"EpicSampleNameHash": "0"
+}
