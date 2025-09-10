@@ -1,6 +1,5 @@
 # Scrap Architect: Unreal Revival
 
-![Scrap Architect Logo](docs/images/logo.png)
 
 ## 🎮 О проекте
 

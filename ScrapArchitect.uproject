@@ -48,7 +48,8 @@
 		}
 	],
 	"TargetPlatforms": [
-		"Win64"
+		"Win64",
+		"Linux"
 	],
 	"EpicSampleNameHash": "0"
 }
