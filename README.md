@@ -107,6 +107,15 @@ cd scrap-architect-unreal
 - Распаковать архив
 - Запустить `ScrapArchitect.exe`
 
+### CI/CD
+
+В репозитории настроены GitHub Actions для self-hosted раннеров:
+- `.github/workflows/ue5-linux.yml` — сборка на Linux (переменная `UE5_ROOT` в Repository Variables)
+- `.github/workflows/ue5-windows.yml` — сборка на Windows (переменная `UE5_ROOT` в Repository Variables)
+
+Требуется настроить self-hosted раннеры и задать `UE5_ROOT`:
+- Settings → Secrets and variables → Actions → Variables → New variable → `UE5_ROOT`
+
 ## 📝 Документация
 
 - [Техническое задание](docs/technical-specification.md)
